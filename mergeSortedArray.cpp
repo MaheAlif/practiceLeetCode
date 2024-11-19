@@ -9,16 +9,16 @@ public:
 
     void merge(vector<int> &nums1, int m, vector<int> &nums2, int n)
     {
-        cout << "\nNums1 : ";
-        for (int i = 0; i < m; i++)
-        {
-            cout << nums1[i] << " - "; // Fixed output syntax
-        }
-        cout << "\nNums2 : ";
-        for (int i = 0; i < n; i++)
-        {
-            cout << nums2[i] << " - "; // Fixed output syntax
-        }
+        // cout << "\nNums1 : ";
+        // for (int i = 0; i < m; i++)
+        // {
+        //     cout << nums1[i] << " - "; // Fixed output syntax
+        // }
+        // cout << "\nNums2 : ";
+        // for (int i = 0; i < n; i++)
+        // {
+        //     cout << nums2[i] << " - "; // Fixed output syntax
+        // }
         nums1.resize(m+n);
 
         int i = m;

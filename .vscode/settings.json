@@ -29,6 +29,8 @@
     },
     "peacock.color": "#dd0531",
     "files.associations": {
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "iosfwd": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
